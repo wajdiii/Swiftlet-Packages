@@ -25,6 +25,8 @@ class Pdo extends \Swiftlet\Model
 		} catch ( \PDOException $e ) {
 			throw new \Exception('Error establishing database connection: ' . $e->getMessage());
 		}
+
+		$this->handle->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
 	}
 
 	/**
