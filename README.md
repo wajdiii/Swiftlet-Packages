@@ -10,9 +10,9 @@ controllers, views or all of the above.
 Installation
 ------------
 
-  * Clone this repository.
-	* Copy the contents of any of the packages to your Swiftlet directory.
-	* Follow instructions in the package's README.
+* Clone this repository.
+* Copy the contents of any of the packages to your Swiftlet directory.
+* Follow instructions in the package's README.
 
 
 Contributing
@@ -21,5 +21,5 @@ Contributing
 If you created a package that you would like to share, please submit a pull
 request.
 
-	* Use Swiftlet's directory structure without overriding existing files.
-  * Include a COPYING (license) and a README file.
+* Use Swiftlet's directory structure without overriding existing files.
+* Include a COPYING (license) and a README file.
